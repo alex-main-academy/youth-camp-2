@@ -115,6 +115,13 @@ a {
   font-display: swap;
   font-style: normal;
 }
+@font-face {
+  font-family: "Alistair Signature";
+  src: url("../fonts/Alistair-Signature.ttf");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
 html {
   font-size: 10px;
 }
@@ -179,12 +186,13 @@ body {
 
 .title {
   position: relative;
-  font-size: 9rem;
+  font-size: 6rem;
   font-weight: 400;
-  line-height: 0.8;
+  line-height: 1;
   text-align: center;
   color: #444;
-  font-family: "Caravan";
+  font-family: "Alistair Signature";
+  padding-top: 3rem;
 }
 
 .divider {
@@ -228,9 +236,9 @@ body {
   position: absolute;
   width: 100%;
   top: 6rem;
-  font-family: "Caravan";
-  font-size: 8rem;
-  line-height: 0.8;
+  font-family: "Alistair Signature";
+  font-size: 5.5rem;
+  line-height: 1;
   text-align: center;
   font-weight: 400;
 }
@@ -264,8 +272,8 @@ body {
   position: absolute;
   width: 100%;
   bottom: 7rem;
-  font-family: "Caravan";
-  font-size: 10rem;
+  font-family: "Alistair Signature";
+  font-size: 7rem;
   line-height: 0.8;
   text-align: center;
 }
@@ -315,6 +323,7 @@ body {
 }
 .programm--second .programm__title {
   margin-bottom: 6rem;
+  font-size: 5rem;
 }
 
 .programm__title {
@@ -588,7 +597,7 @@ body {
   font-size: 2rem;
   color: #2f2f2f;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .register__phone {
@@ -604,7 +613,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 26rem;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 1.5rem auto;
   height: 5rem;
   border: 1px solid #3b6d57;
   text-decoration: none;
@@ -616,6 +625,21 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   color: #ca8132;
+}
+
+.register__leads--title {
+  font-size: 2rem;
+  text-align: center;
+  color: #2f2f2f;
+  font-weight: 500;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.register__leads--name {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 2;
 }
 
 .footer__link {

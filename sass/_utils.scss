@@ -67,12 +67,13 @@ body {
 
 .title {
   position: relative;
-  font-size: 9rem;
+  font-size: 6rem;
   font-weight: 400;
-  line-height: 0.8;
+  line-height: 1;
   text-align: center;
   color: #444;
   font-family: $font-decorative;
+  padding-top: 3rem;
 }
 
 .divider {

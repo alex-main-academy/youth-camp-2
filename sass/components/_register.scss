@@ -19,7 +19,7 @@
   font-size: 2rem;
   color: #2f2f2f;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .register__phone {
@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: center;
   width: 26rem;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 1.5rem auto;
   height: 5rem;
   border: 1px solid $bg-accent;
   text-decoration: none;
@@ -47,4 +47,19 @@
   font-size: 1.2rem;
   font-weight: 500;
   color: $color-accent;
+}
+
+.register__leads--title {
+  font-size: 2rem;
+  text-align: center;
+  color: #2f2f2f;
+  font-weight: 500;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.register__leads--name {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 2;
 }
