@@ -1,0 +1,26 @@
+.time {
+  padding: 3rem 0 5rem 0;
+  background-image: url(../img/main-bg.jpg);
+}
+
+.time__title {
+  margin-bottom: 3rem;
+}
+
+.time__date {
+  text-align: center;
+  font-size: 5.2rem;
+  font-family: $font-decorative;
+  font-weight: 700;
+}
+
+.time__divider {
+  padding: 4rem 0;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.time__price {
+  text-align: center;
+  font-size: 2.8rem;
+}

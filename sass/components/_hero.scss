@@ -1,0 +1,61 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/tree-right.png), url(../img/tree-left.png),
+    url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 13rem, 13rem, cover;
+  background-position: top 20rem right, bottom 15rem left, top center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero__title {
+  position: absolute;
+  width: 100%;
+  top: 6rem;
+  font-family: $font-decorative;
+  font-size: 8rem;
+  line-height: 0.8;
+  text-align: center;
+  font-weight: 400;
+}
+
+.hero__theme {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 6rem;
+
+  small {
+    display: block;
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+}
+
+.hero__friend {
+  font-size: 4rem;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero__invite {
+  font-size: 2rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.hero__date {
+  position: absolute;
+  width: 100%;
+  bottom: 7rem;
+  font-family: $font-decorative;
+  font-size: 10rem;
+  line-height: 0.8;
+  text-align: center;
+}

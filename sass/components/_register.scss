@@ -1,0 +1,50 @@
+.register {
+  padding-bottom: 6rem;
+  background-image: url(../img/main-bg.jpg);
+}
+
+.register__title {
+  margin-bottom: 5rem;
+}
+
+.register__tip {
+  color: $color-accent;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.register__name {
+  text-align: center;
+  font-size: 2rem;
+  color: #2f2f2f;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.register__phone {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.3rem;
+  text-decoration: none;
+}
+
+.register__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26rem;
+  margin: 0 auto 1rem auto;
+  height: 5rem;
+  border: 1px solid $bg-accent;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.register__warning {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: $color-accent;
+}

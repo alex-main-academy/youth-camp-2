@@ -1,0 +1,36 @@
+.location {
+  background-image: url(../img/main-bg.jpg);
+}
+
+.location__title {
+  margin-bottom: 5rem;
+}
+
+.location__place {
+  margin-bottom: 1.5rem;
+
+  iframe {
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+    margin-top: -0.5rem;
+  }
+}
+
+.location__link {
+  border: 1px solid $bg-accent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.5rem;
+
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.location__divider {
+  margin-top: 4rem;
+}
